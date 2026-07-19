@@ -102,3 +102,70 @@ Example of a legitimate email classified as **Not Spam**.
 <p align="center">
   <img src="images/normal_prediction.png" alt="Normal Prediction" width="90%">
 </p>
+
+
+---
+
+# ✨ Key Features
+
+- 🚨 Real-time Spam Email Detection
+- 🧠 Machine Learning based Classification
+- 📝 Natural Language Processing using CountVectorizer
+- 📊 Prediction Confidence Score
+- ⚠️ Uncertain Prediction for Low Confidence
+- 🌐 Interactive Gradio Web Interface
+- ☁️ Deployed on Hugging Face Spaces
+- 📱 Simple and Responsive User Interface
+- 🔍 Easy-to-use Email Testing Interface
+
+---
+
+# ⚙️ Workflow
+
+```text
+                User
+                  │
+                  ▼
+        Gradio Web Interface
+                  │
+                  ▼
+            Email Input
+                  │
+                  ▼
+         Text Preprocessing
+                  │
+                  ▼
+          CountVectorizer
+                  │
+                  ▼
+          Feature Vector
+                  │
+                  ▼
+      Logistic Regression Model
+                  │
+                  ▼
+     Prediction + Confidence Score
+          │        │         │
+          │        │         │
+          ▼        ▼         ▼
+      🚨 Spam   ✅ Not Spam  ⚠️ Uncertain
+                  │
+                  ▼
+           Display Prediction
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technology |
+|-----------|------------|
+| Programming Language | Python |
+| Machine Learning | Scikit-Learn |
+| Algorithm | Logistic Regression |
+| Natural Language Processing | CountVectorizer |
+| Numerical Computing | NumPy |
+| Model Serialization | Joblib |
+| Web Framework | Gradio |
+| Deployment | Hugging Face Spaces |
+| Version Control | Git & GitHub |
