@@ -169,3 +169,81 @@ Example of a legitimate email classified as **Not Spam**.
 | Web Framework | Gradio |
 | Deployment | Hugging Face Spaces |
 | Version Control | Git & GitHub |
+
+---
+
+# 📂 Project Structure
+
+```text
+spam-email-detection-ml
+│
+├── app.py
+├── main.py
+├── spam_model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── images
+    ├── architecture-diagram.png
+    ├── home.png
+    ├── spam_prediction.png
+    ├── uncertain_prediction.png
+    └── normal_prediction.png
+```
+
+---
+
+# 📊 Sample Predictions
+
+| Email Message | Prediction |
+|---------------|------------|
+| Click here to earn money | 🚨 Spam Email |
+| Congratulations! You won ₹10,00,000 | 🚨 Spam Email |
+| Meeting scheduled at 10 AM | ⚠️ Uncertain |
+| Please submit your assignment before Friday | ✅ Not Spam |
+
+---
+
+# 🚀 Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/k-siddhartha-ai/spam-email-detection-ml.git
+```
+
+## 2️⃣ Navigate to the Project Folder
+
+```bash
+cd spam-email-detection-ml
+```
+
+## 3️⃣ Install Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Run the Application
+
+```bash
+python app.py
+```
+
+The application will start locally, and you can open it in your browser.
+
+---
+
+# 🎯 Future Enhancements
+
+- 📈 Train the model using a larger real-world email dataset.
+- 🧠 Improve prediction accuracy using advanced NLP techniques.
+- 🤖 Explore Deep Learning models (LSTM/BERT).
+- 🌐 Develop a REST API using FastAPI.
+- 🐳 Add Docker support for easy deployment.
+- 🔒 Detect phishing URLs and suspicious email attachments.
+- ☁️ Deploy on cloud platforms such as AWS, Azure, or GCP.
+- 🔄 Implement CI/CD for automated testing and deployment.
+- 📊 Add an analytics dashboard for monitoring predictions.
