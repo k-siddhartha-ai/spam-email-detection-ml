@@ -245,5 +245,86 @@ The application will start locally, and you can open it in your browser.
 - 🐳 Add Docker support for easy deployment.
 - 🔒 Detect phishing URLs and suspicious email attachments.
 - ☁️ Deploy on cloud platforms such as AWS, Azure, or GCP.
+
+---
+
+# 📚 Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+- 🐍 Python Programming
+- 🤖 Machine Learning
+- 📝 Natural Language Processing (NLP)
+- 📊 Text Feature Extraction using CountVectorizer
+- 🧠 Logistic Regression Classification
+- 💾 Model Serialization with Joblib
+- 🌐 Gradio Web Application Development
+- ☁️ Hugging Face Spaces Deployment
+- 📂 Git & GitHub Version Control
+- 🎯 Confidence-Based Prediction Systems
+
+---
+
+# ⚠️ Limitations
+
+This project was developed for educational and learning purposes.
+
+The current model is trained on a relatively small dataset. As a result, some complex or previously unseen email messages may be classified as **Uncertain** rather than forcing an incorrect prediction.
+
+Future versions will use larger datasets and more advanced machine learning techniques to improve overall accuracy and robustness.
+
+---
+
+# 👨‍💻 About Me
+
+## Karne Siddhartha
+
+**AI & Machine Learning Enthusiast | Python Developer**
+
+I'm passionate about building practical Machine Learning applications and continuously improving my skills in AI, Python, Data Science, and Software Development.
+
+### 🌐 Connect with Me
+
+- 💻 **GitHub:** https://github.com/k-siddhartha-ai
+- 🤗 **Hugging Face:** https://huggingface.co/Siddhartha001
+- 💼 **LinkedIn:** https://www.linkedin.com/in/karne-siddhartha/
+- 📺 **YouTube:** https://www.youtube.com/@CodeWithSiddhartha
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome!
+
+If you'd like to contribute:
+
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# ⭐ Support
+
+If you found this project helpful:
+
+⭐ Star this repository
+
+🍴 Fork the repository
+
+🛠️ Share your suggestions
+
+💬 Give your valuable feedback
+
+---
+
+<p align="center">
+
+### ⭐ If you like this project, don't forget to Star the repository! ⭐
+
+Made with ❤️ by **Karne Siddhartha**
+
+</p>
 - 🔄 Implement CI/CD for automated testing and deployment.
 - 📊 Add an analytics dashboard for monitoring predictions.
