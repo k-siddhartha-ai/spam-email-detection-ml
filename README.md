@@ -58,5 +58,47 @@ The application is built using **Python**, **Scikit-Learn**, **Gradio**, and dep
 The following diagram illustrates the complete workflow of the Spam Email Detection system.
 
 <p align="center">
-  <img src="images/architecture-diagram.png" alt="Spam Email Detection Architecture" width="100%">
+        <img src="images/architecture-diagram.png" alt="Spam Email Detection Architecture" width="100%">
+</p>
+
+---
+
+# 🖥️ Application Preview
+
+## 🏠 Home Screen
+
+The main interface where users can enter an email message and receive a prediction.
+
+<p align="center">
+  <img src="images/home.png" alt="Home Screen" width="90%">
+</p>
+
+---
+
+## 🚨 Spam Email Prediction
+
+Example showing a spam email detected with a high confidence score.
+
+<p align="center">
+  <img src="images/spam_prediction.png" alt="Spam Prediction" width="90%">
+</p>
+
+---
+
+## ⚠️ Uncertain Email Prediction
+
+If the confidence falls within the predefined threshold, the application returns an **Uncertain** result instead of forcing an incorrect prediction.
+
+<p align="center">
+  <img src="images/uncertain_prediction.png" alt="Uncertain Prediction" width="90%">
+</p>
+
+---
+
+## ✅ Not Spam Email Prediction
+
+Example of a legitimate email classified as **Not Spam**.
+
+<p align="center">
+  <img src="images/normal_prediction.png" alt="Normal Prediction" width="90%">
 </p>
